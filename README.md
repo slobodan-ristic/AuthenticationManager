@@ -26,6 +26,8 @@ it, simply add the following line to your Podfile:
 pod 'AuthenticationManager'
 ```
 
+## Usage
+
 ## Author
 
 slobodan-ristic, slobodan.ristic@swiftylabs.io
