@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
   s.platforms = { "ios": "10.0" }
-  s.source_files = 'AuthenticationManager/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   
   # s.resource_bundles = {
   #   'AuthenticationManager' => ['AuthenticationManager/Assets/*.png']
