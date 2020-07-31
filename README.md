@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/AuthenticationManager.svg?style=flat)](https://cocoapods.org/pods/AuthenticationManager)
 [![Platform](https://img.shields.io/cocoapods/p/AuthenticationManager.svg?style=flat)](https://cocoapods.org/pods/AuthenticationManager)
 
+AuthenticationManager is a manager with which you can easily and simply determine whether the device supports biometrics (and if supported, which type of biometrics is available).
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
