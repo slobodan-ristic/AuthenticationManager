@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CF748F9EEFF75432AA5523239CAA6BF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6DA8F05B606118876AA6B490F75CF /* ReplaceMe.swift */; };
 		236077F6AF6EA74CA4704FE7593EC063 /* Pods-AuthenticationManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AE42663EAB6B622C713C01464CFC0 /* Pods-AuthenticationManager_Example-dummy.m */; };
+		45ACD21824D40A9300F7D9F2 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ACD21724D40A9300F7D9F2 /* AuthenticationManager.swift */; };
 		6761B0F57061A47EFE5A38C9195B40FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		766CF9167863F52AD1515C1C9561FE4C /* AuthenticationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B78B933C6D21C551E63BCFF99EFBB4A4 /* AuthenticationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7782F5F366F05A059BB3CFC0546684C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -42,25 +42,25 @@
 		19B89E973325E367272C030592E11373 /* Pods-AuthenticationManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AuthenticationManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1D325F88BDE97DAD391605569B62E9A0 /* Pods-AuthenticationManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AuthenticationManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1FFAA7296361AD82107FE5F7084AC174 /* AuthenticationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AuthenticationManager-prefix.pch"; sourceTree = "<group>"; };
-		237EAE480A1EB1AC9333B335ED706C07 /* Pods_AuthenticationManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AuthenticationManager_Tests.framework; path = "Pods-AuthenticationManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		237EAE480A1EB1AC9333B335ED706C07 /* Pods_AuthenticationManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthenticationManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33453D0A5840424736AC78B1C0EC1744 /* Pods-AuthenticationManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AuthenticationManager_Example.modulemap"; sourceTree = "<group>"; };
 		3566C8337DF741F43768A742F82B9657 /* Pods-AuthenticationManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AuthenticationManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		3D0FD4AFE391F15F057A9B5213909084 /* Pods-AuthenticationManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AuthenticationManager_Tests-Info.plist"; sourceTree = "<group>"; };
 		417CE098043AE53B4EEE6F5B3CEFC819 /* Pods-AuthenticationManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AuthenticationManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		45ACD21724D40A9300F7D9F2 /* AuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		46EB9808822664DB28317B2B0186B2B6 /* Pods-AuthenticationManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AuthenticationManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		563CCD5AB51B6712BFD7447CFC6F4404 /* Pods_AuthenticationManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AuthenticationManager_Example.framework; path = "Pods-AuthenticationManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		72118535F4442C26E99D61F660178CDB /* AuthenticationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AuthenticationManager.framework; path = AuthenticationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79ACB93AAA437E9CD1EB0FAD26D29825 /* AuthenticationManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AuthenticationManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		563CCD5AB51B6712BFD7447CFC6F4404 /* Pods_AuthenticationManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthenticationManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72118535F4442C26E99D61F660178CDB /* AuthenticationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AuthenticationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79ACB93AAA437E9CD1EB0FAD26D29825 /* AuthenticationManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AuthenticationManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7DEA96D09B3ED36E3A23D0E354AE8B68 /* Pods-AuthenticationManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AuthenticationManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		85BF605DE770E3759AB6926BE372B3E7 /* AuthenticationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AuthenticationManager-dummy.m"; sourceTree = "<group>"; };
-		8BE4C4D5FD8CA0AEEF3869BA6D889E29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8BE4C4D5FD8CA0AEEF3869BA6D889E29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B78B933C6D21C551E63BCFF99EFBB4A4 /* AuthenticationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AuthenticationManager-umbrella.h"; sourceTree = "<group>"; };
 		C33B48580B6EF3E97FD306BF276BDBE1 /* AuthenticationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AuthenticationManager.modulemap; sourceTree = "<group>"; };
 		CCE7DF61D90C8931C40E7D76C74C7FD4 /* Pods-AuthenticationManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AuthenticationManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD87B3824BD345D7D998FFD84C9AF5E0 /* Pods-AuthenticationManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AuthenticationManager_Tests.modulemap"; sourceTree = "<group>"; };
-		CDE6DA8F05B606118876AA6B490F75CF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AuthenticationManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D7B31D51145A778E9F1B6E1B37C903E5 /* Pods-AuthenticationManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AuthenticationManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DAC08A84C278F88D595CFA1A6A4455C7 /* Pods-AuthenticationManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AuthenticationManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DD1C98081540F6603F838E75472268AE /* Pods-AuthenticationManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AuthenticationManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		E87486939CB929F312FDFA561D9FF915 /* Pods-AuthenticationManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AuthenticationManager_Example-Info.plist"; sourceTree = "<group>"; };
 		E8990FCBE1633420F0BE781A4125E1D1 /* AuthenticationManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AuthenticationManager-Info.plist"; sourceTree = "<group>"; };
 		F3B4FE920668F6958A9CCDCDE8F5CD58 /* Pods-AuthenticationManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AuthenticationManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F513154A1FFA3341665C941BE1372BCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F513154A1FFA3341665C941BE1372BCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +108,14 @@
 				237EAE480A1EB1AC9333B335ED706C07 /* Pods_AuthenticationManager_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		45ACD21624D40A2F00F7D9F2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				45ACD21724D40A9300F7D9F2 /* AuthenticationManager.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		561918E6FB4B670A14824DA79743AA5C /* Pod */ = {
@@ -156,7 +164,7 @@
 		A3F9420026F9B8CF64C12E6E3B363F0D /* AuthenticationManager */ = {
 			isa = PBXGroup;
 			children = (
-				CDE6DA8F05B606118876AA6B490F75CF /* ReplaceMe.swift */,
+				45ACD21624D40A2F00F7D9F2 /* Source */,
 				561918E6FB4B670A14824DA79743AA5C /* Pod */,
 				A4676C45990B89E08371D26DAEC5759B /* Support Files */,
 			);
@@ -317,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					F3A45D8EB690BE9B84B7CA4D015F381A = {
+						LastSwiftMigration = 1150;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,7 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9876BFE2D5EA0AECD1CCA0DD6CAFEEDE /* AuthenticationManager-dummy.m in Sources */,
-				1CF748F9EEFF75432AA5523239CAA6BF /* ReplaceMe.swift in Sources */,
+				45ACD21824D40A9300F7D9F2 /* AuthenticationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +435,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AuthenticationManager_Example/Pods-AuthenticationManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AuthenticationManager_Example/Pods-AuthenticationManager_Example.modulemap";
@@ -444,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E67A6B7241983B0108BAC39A3F5DE27F /* AuthenticationManager.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -456,7 +470,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AuthenticationManager/AuthenticationManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AuthenticationManager/AuthenticationManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AuthenticationManager/AuthenticationManager.modulemap";
 				PRODUCT_MODULE_NAME = AuthenticationManager;
@@ -464,7 +478,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -487,7 +502,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AuthenticationManager_Tests/Pods-AuthenticationManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AuthenticationManager_Tests/Pods-AuthenticationManager_Tests.modulemap";
@@ -509,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02ED9F8DC96CDAFA6F44315E75330956 /* AuthenticationManager.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -521,7 +537,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AuthenticationManager/AuthenticationManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AuthenticationManager/AuthenticationManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AuthenticationManager/AuthenticationManager.modulemap";
 				PRODUCT_MODULE_NAME = AuthenticationManager;
@@ -529,7 +545,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -553,7 +569,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AuthenticationManager_Tests/Pods-AuthenticationManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AuthenticationManager_Tests/Pods-AuthenticationManager_Tests.modulemap";
@@ -618,13 +634,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -681,7 +696,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -710,7 +725,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AuthenticationManager_Example/Pods-AuthenticationManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AuthenticationManager_Example/Pods-AuthenticationManager_Example.modulemap";

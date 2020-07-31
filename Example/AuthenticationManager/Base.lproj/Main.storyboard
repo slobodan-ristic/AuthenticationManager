@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,18 +12,68 @@
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AuthenticationManager_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XKA-5f-sGU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3KM-bY-AwT">
+                                        <rect key="frame" x="30" y="60" width="315" height="547"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVY-I4-RFx">
+                                                <rect key="frame" x="128" y="254" width="59" height="39"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <state key="normal" title="Log In"/>
+                                                <state key="highlighted" title="Log Out"/>
+                                                <connections>
+                                                    <action selector="buttonLoginTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LF2-zl-SSJ"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Authenticate with Face ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caX-vN-yVU">
+                                                <rect key="frame" x="34" y="313" width="247" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="sVY-I4-RFx" firstAttribute="centerY" secondItem="3KM-bY-AwT" secondAttribute="centerY" id="2u5-ED-gan"/>
+                                            <constraint firstItem="sVY-I4-RFx" firstAttribute="centerX" secondItem="3KM-bY-AwT" secondAttribute="centerX" id="Xrq-E1-87A"/>
+                                            <constraint firstItem="caX-vN-yVU" firstAttribute="centerX" secondItem="3KM-bY-AwT" secondAttribute="centerX" id="h1N-Y2-7bm"/>
+                                            <constraint firstItem="caX-vN-yVU" firstAttribute="top" secondItem="sVY-I4-RFx" secondAttribute="bottom" constant="20" id="h9M-RM-q3Z"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="3KM-bY-AwT" firstAttribute="centerX" secondItem="XKA-5f-sGU" secondAttribute="centerX" id="Ha8-xw-Mqg"/>
+                                    <constraint firstItem="3KM-bY-AwT" firstAttribute="centerY" secondItem="XKA-5f-sGU" secondAttribute="centerY" id="cyr-Ah-Nkp"/>
+                                    <constraint firstItem="3KM-bY-AwT" firstAttribute="leading" secondItem="XKA-5f-sGU" secondAttribute="leading" constant="30" id="nqA-zN-6IU"/>
+                                    <constraint firstItem="3KM-bY-AwT" firstAttribute="top" secondItem="XKA-5f-sGU" secondAttribute="top" constant="60" id="soz-VY-tKB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="XKA-5f-sGU" secondAttribute="bottom" id="78I-nz-Det"/>
+                            <constraint firstItem="XKA-5f-sGU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="PHo-bl-Azk"/>
+                            <constraint firstAttribute="trailing" secondItem="XKA-5f-sGU" secondAttribute="trailing" id="gKZ-II-kDr"/>
+                            <constraint firstItem="XKA-5f-sGU" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="uyO-Q6-Mml"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="m4W-ja-ZZK"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonLogin" destination="sVY-I4-RFx" id="QYZ-gV-HYU"/>
+                        <outlet property="labelFaceID" destination="caX-vN-yVU" id="YEF-NI-qwy"/>
+                        <outlet property="viewState" destination="XKA-5f-sGU" id="Dg7-Q5-YTA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="133"/>
         </scene>
     </scenes>
 </document>
