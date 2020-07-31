@@ -27,8 +27,15 @@ pod 'AuthenticationManager'
 
 ## Usage
 
+Create instance of manager with protocol type 'AuthenticationManageable'
 ```ruby
 let authenticationManager: AuthenticationManageable = AuthenticationManager()
+```
+
+With object you can use 2 functions:
+- first 'biometricsType', with which check whether device support touch ID or face ID. Function return error if authentication isn't available.
+```ruby
+authenticationManager.biometricsType
 ```
 
 ## Author
