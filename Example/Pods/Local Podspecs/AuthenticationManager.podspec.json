@@ -1,0 +1,22 @@
+{
+  "name": "AuthenticationManager",
+  "version": "0.1.0",
+  "summary": "A short description of AuthenticationManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/slobodan-ristic/AuthenticationManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "slobodan-ristic": "slobodan.ristic@swiftylabs.io"
+  },
+  "source": {
+    "git": "https://github.com/slobodan-ristic/AuthenticationManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AuthenticationManager/Classes/**/*"
+}

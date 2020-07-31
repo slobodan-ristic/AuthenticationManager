@@ -1,0 +1,6 @@
+framework module Pods_AuthenticationManager_Example {
+  umbrella header "Pods-AuthenticationManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

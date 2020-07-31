@@ -1,0 +1,6 @@
+framework module AuthenticationManager {
+  umbrella header "AuthenticationManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

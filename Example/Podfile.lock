@@ -1,0 +1,16 @@
+PODS:
+  - AuthenticationManager (0.1.0)
+
+DEPENDENCIES:
+  - AuthenticationManager (from `../`)
+
+EXTERNAL SOURCES:
+  AuthenticationManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AuthenticationManager: 83f5592f8633b5c056d134d4056f141db8a47df7
+
+PODFILE CHECKSUM: c6293f003eb589533cda7a51fde37f936739064f
+
+COCOAPODS: 1.9.3
