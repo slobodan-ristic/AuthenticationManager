@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AuthenticationManager_Example' do
+  pod 'AuthenticationManager', :path => '../'
+
+  target 'AuthenticationManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
