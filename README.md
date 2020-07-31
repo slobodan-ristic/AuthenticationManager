@@ -11,6 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- iOS 10.0+
+- xCode 11.0+
+- Swift 5.0+
+
 ## Installation
 
 AuthenticationManager is available through [CocoaPods](https://cocoapods.org). To install
