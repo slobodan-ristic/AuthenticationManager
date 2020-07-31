@@ -19,7 +19,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-### CocoaPods
+#### CocoaPods
 
 ```ruby
 pod 'AuthenticationManager'
@@ -27,7 +27,9 @@ pod 'AuthenticationManager'
 
 ## Usage
 
-
+```ruby
+let authenticationManager: AuthenticationManageable = AuthenticationManager()
+```
 
 ## Author
 
